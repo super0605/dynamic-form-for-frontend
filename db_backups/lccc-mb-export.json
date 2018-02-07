@@ -1,0 +1,278 @@
+{
+  "forms" : [ {
+    "meta" : {
+      "title" : "HMRC - New Starter"
+    },
+    "schema" : {
+      "fields" : [ {
+        "inputType" : "text",
+        "label" : "First Name",
+        "model" : "firstName",
+        "placeholder" : "First Name",
+        "required" : true,
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Last Name",
+        "model" : "lastName",
+        "placeholder" : "Last Name",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Middle Name",
+        "model" : "otherName",
+        "placeholder" : "Middle Name",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Email Address",
+        "model" : "email",
+        "placeholder" : "Email Address",
+        "type" : "input"
+      }, {
+        "inputType" : "select",
+        "label" : "Sex (M/F)",
+        "model" : "sex",
+        "options" : [ "Male", "Female" ],
+        "placeholder" : "Male or Female",
+        "type" : "input"
+      }, {
+        "inputType" : "date",
+        "label" : "Date of Birth",
+        "model" : "birthDate",
+        "placeholder" : "Date of Birth",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Street Address",
+        "model" : "streetAddress1",
+        "placeholder" : "Street Address",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Town",
+        "model" : "town",
+        "placeholder" : "Town",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "County",
+        "model" : "county",
+        "placeholder" : "County",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Postcode",
+        "model" : "postalCode",
+        "placeholder" : "Postcode",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Country",
+        "model" : "country",
+        "placeholder" : "Country",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "NI Number",
+        "model" : "taxID",
+        "placeholder" : "National Insurance Number",
+        "type" : "input"
+      }, {
+        "inputType" : "date",
+        "label" : "Start Date",
+        "model" : "startDate",
+        "placeholder" : "Employment Start Date",
+        "type" : "input"
+      }, {
+        "inputType" : "select",
+        "label" : "This is now my only job but since last 6 April but have had another job.I do not receive a State or Occupational Pension.",
+        "model" : "question1",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "type" : "input"
+      }, {
+        "inputType" : "select",
+        "label" : "This is now my only job but since last 6 April and have not had another job, but have received taxable Jobseeker’s Allowance, Employment and Support Allowance or taxable Incapacity Benefit. I do not receive a State or Occupational Pension.",
+        "model" : "question2",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "type" : "input"
+      }, {
+        "inputType" : "select",
+        "label" : "As well as my new job, I have another job",
+        "model" : "question3",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "type" : "input"
+      }, {
+        "inputType" : "select",
+        "label" : "As well as my new job, I receive a State or Occupational Pension",
+        "model" : "question4",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "type" : "input"
+      }, {
+        "inputType" : "select",
+        "label" : "Are you repaying your Student Loan direct to the Student Loans Company by agreed monthly payments?",
+        "model" : "question5",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "type" : "input"
+      }, {
+        "inputType" : "select",
+        "label" : "Do you have a Student Loan which is not fully repaid?",
+        "model" : "question6",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "type" : "input"
+      }, {
+        "description" : "<dl><dt>You will have Plan 1 if:</dt><dd>You lived in Scotland or Northern Ireland when you started your course, or</dd><dd>You lived in England or Wales and started your course before September 2012.</dd><dt>You will have Plan 2 if:<dt><dd>You lived in England or Wales and started your course on or after 1 September 2012</dd></dl>",
+        "inputType" : "select",
+        "label" : "What type of Student Loan Plan do you have?",
+        "model" : "question7",
+        "options" : [ "Plan 1", "Plan 2", "N/A" ],
+        "placeholder" : "Plan 1/Plan 2",
+        "type" : "input"
+      }, {
+        "inputType" : "select",
+        "label" : "Did you finish your studies before the last 6 April?",
+        "model" : "question8",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "type" : "input"
+      }, {
+        "inputType" : "select",
+        "label" : "Have you signed an employment contract with LCCC?",
+        "model" : "question9",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "type" : "input"
+      } ]
+    },
+    "status" : ""
+  }, {
+    "meta" : {
+      "title" : "LCCC Junior Registration"
+    },
+    "schema" : {
+      "fields" : [ {
+        "inputType" : "text",
+        "label" : "First Name",
+        "model" : "firstName",
+        "placeholder" : "Player first name",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Last Name",
+        "model" : "lastName",
+        "placeholder" : "Player Last Name",
+        "type" : "input"
+      }, {
+        "inputType" : "date",
+        "label" : "Date of Birth",
+        "model" : "birthDate",
+        "placeholder" : "Player date of birth",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Street Address",
+        "model" : "streetAddress",
+        "placeholder" : "Street Address",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Town or City",
+        "model" : "town",
+        "placeholder" : "Town or City",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Postcode",
+        "model" : "postalCode",
+        "placeholder" : "Postcode",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Mobile Number",
+        "model" : "mobilePhoneNumber",
+        "placeholder" : "Mobile phone number",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Telephone Number",
+        "model" : "homePhoneNumber",
+        "placeholder" : "Home telephone number",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "Email",
+        "model" : "email",
+        "placeholder" : "Email address",
+        "type" : "input"
+      }, {
+        "inputType" : "text",
+        "label" : "School Attended",
+        "model" : "schoolAttended",
+        "placeholder" : "School attended",
+        "type" : "input"
+      }, {
+        "description" : "Will the player be playing for any other clubs whilst playing for LCCC? (School excluded).",
+        "inputType" : "text",
+        "label" : "Other Clubs",
+        "model" : "sportsClub",
+        "placeholder" : "Other clubs",
+        "type" : "input"
+      }, {
+        "description" : "Are there any ailments or allergies from which your child suffers of which LCCC Juniors should be made aware?  if yes, please give details.",
+        "inputType" : "text",
+        "label" : "Health Risks",
+        "model" : "allergies",
+        "placeholder" : "Health risks or allergies",
+        "type" : "input"
+      }, {
+        "description" : "I consent as a parent/gauardian that the data on this child can be held for a period of 12 months.",
+        "inputType" : "select",
+        "label" : "Consent",
+        "model" : "consent",
+        "options" : [ "Yes", "No" ]
+      } ]
+    },
+    "status" : ""
+  } ],
+  "fields" : {
+    "-L3F4yql3Fnl71B_M-1P" : {
+      "inputType" : "text",
+      "label" : "Dob",
+      "model" : "dob"
+    },
+    "-L3F5-WvLPboHSiw-YmJ" : {
+      "inputType" : "text",
+      "label" : "First Name",
+      "model" : "firstName"
+    }
+  },
+  "users" : {
+    "7nWyMgAh92gdp9bvepVLt0Gu2qO2" : {
+      "email" : "a@a.com",
+      "forms" : [ {
+        "consent" : "true",
+        "firstName" : "qqqq",
+        "lastName" : "C",
+        "otherName" : "F",
+        "sex" : "Female",
+        "status" : "modified",
+        "streetAddress1" : "uuytuyuytuyuyt"
+      } ],
+      "role" : "data_owner"
+    },
+    "BwiTkinzuvg0cM1ce0kMQd3Cjhj1" : {
+      "email" : "c@a.com",
+      "role" : "data_owner"
+    },
+    "harnaw37ymbKx7dcMHHJkgwnvEy1" : {
+      "email" : "b@a.com",
+      "role" : "data_processor"
+    }
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "forms" : [ {
+    "meta" : {
+      "description" : "LCCC New Employee Starter Form",
+      "title" : "LCCC Employment Form"
+    },
+    "schema" : {
+      "fields" : [ {
+        "counter" : "30",
+        "inputType" : "text",
+        "label" : "First Name",
+        "model" : "firstName",
+        "placeholder" : "First Name",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "text",
+        "label" : "Last Name",
+        "model" : "lastName",
+        "placeholder" : "Last Name",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "text",
+        "label" : "Middle Name",
+        "model" : "otherName",
+        "placeholder" : "Middle Name",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "text",
+        "label" : "Email Address",
+        "model" : "email",
+        "placeholder" : "Email Address",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "select",
+        "label" : "Sex (M/F)",
+        "model" : "sex",
+        "options" : [ "Male", "Female" ],
+        "placeholder" : "Male or Female",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "date",
+        "label" : "Date of Birth",
+        "model" : "birthDate",
+        "placeholder" : "Date of Birth",
+        "rules" : "required",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "text",
+        "label" : "Street Address",
+        "model" : "streetAddress1",
+        "placeholder" : "Street Address",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "text",
+        "label" : "Town",
+        "model" : "town",
+        "placeholder" : "Town",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "text",
+        "label" : "County",
+        "model" : "county",
+        "placeholder" : "County",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "text",
+        "label" : "Postcode",
+        "model" : "postalCode",
+        "placeholder" : "Postcode",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "text",
+        "label" : "Country",
+        "model" : "country",
+        "placeholder" : "Country",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "text",
+        "label" : "NI Number",
+        "model" : "taxID",
+        "placeholder" : "National Insurance Number",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "date",
+        "label" : "Start Date",
+        "model" : "startDate",
+        "placeholder" : "Employment Start Date",
+        "rules" : "required",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "select",
+        "label" : "This is now my only job but since last 6 April but have had another job.I do not receive a State or Occupational Pension.",
+        "model" : "question1",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "select",
+        "label" : "This is my first job since last 6 April and I have not been receiving taxable Jobseeker’s Allowance, Employment and Support Allowance, taxable Incapacity Benefit, State or Occupational Pension",
+        "model" : "question2",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "select",
+        "label" : "As well as my new job, I have another job",
+        "model" : "question3",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "select",
+        "label" : "As well as my new job, I receive a State or Occupational Pension",
+        "model" : "question4",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "select",
+        "label" : "Are you repaying your Student Loan direct to the Student Loans Company by agreed monthly payments?",
+        "model" : "question5",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "select",
+        "label" : "Do you have a Student Loan which is not fully repaid?",
+        "model" : "question6",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "description" : "<dl><dt>You will have Plan 1 if:</dt><dd>You lived in Scotland or Northern Ireland when you started your course, or</dd><dd>You lived in England or Wales and started your course before September 2012.</dd><dt>You will have Plan 2 if:<dt><dd>You lived in England or Wales and started your course on or after 1 September 2012</dd></dl>",
+        "inputType" : "select",
+        "label" : "What type of Student Loan Plan do you have?",
+        "model" : "question7",
+        "options" : [ "Plan 1", "Plan 2", "N/A" ],
+        "placeholder" : "Plan 1/Plan 2",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "select",
+        "label" : "Did you finish your studies before the last 6 April?",
+        "model" : "question8",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "rules" : "required|max:30",
+        "type" : "input"
+      }, {
+        "counter" : "30",
+        "inputType" : "select",
+        "label" : "Have you signed an employment contract with LCCC?",
+        "model" : "question9",
+        "options" : [ "Yes", "No" ],
+        "placeholder" : "Yes/No",
+        "rules" : "required|max:30",
+        "type" : "input"
+      } ]
+    },
+    "status" : "published"
+  } ],
+  "schema" : {
+    "fields" : [ {
+      "inputType" : "text",
+      "label" : "First Name",
+      "model" : "firstName"
+    }, {
+      "inputType" : "text",
+      "label" : "Last Name",
+      "model" : "lastName"
+    } ]
+  },
+  "users" : {
+    "Bo6HWaZsemU8NO1Wta3T2NLP2sX2" : {
+      "email" : "thomas.behe@magicbox.technology",
+      "forms" : [ {
+        "country" : "uk",
+        "county" : "London",
+        "email" : "thomas.behe@magicbox.technology",
+        "firstName" : "Thomas",
+        "lastName" : "Behe",
+        "otherName" : "John",
+        "postalCode" : "n195hl",
+        "question1" : "Yes",
+        "question2" : "No",
+        "question3" : "No",
+        "question4" : "Yes",
+        "question5" : "Yes",
+        "question6" : "No",
+        "question7" : "Plan 1",
+        "question8" : "Yes",
+        "question9" : "Yes",
+        "sex" : "Male",
+        "status" : "submitted",
+        "streetAddress1" : "124 Dartmouth Park Hill",
+        "taxID" : "pi1234567",
+        "town" : "London"
+      } ],
+      "role" : "data_owner"
+    },
+    "PVEHLCq4Ppguw0oilFChiXHFylG2" : {
+      "email" : "rob@magicbox.technology",
+      "forms" : [ {
+        "instances" : {
+          "Bo6HWaZsemU8NO1Wta3T2NLP2sX2" : {
+            "country" : "uk",
+            "county" : "London",
+            "email" : "thomas.behe@magicbox.technology",
+            "firstName" : "Thomas",
+            "lastName" : "Behe",
+            "otherName" : "John",
+            "postalCode" : "n195hl",
+            "question1" : "Yes",
+            "question2" : "No",
+            "question3" : "No",
+            "question4" : "Yes",
+            "question5" : "Yes",
+            "question6" : "No",
+            "question7" : "Plan 1",
+            "question8" : "Yes",
+            "question9" : "Yes",
+            "sex" : "Male",
+            "status" : "modified",
+            "streetAddress1" : "124 Dartmouth Park Hill",
+            "taxID" : "pi1234567",
+            "town" : "London"
+          },
+          "khAsFEhw6sNtc2XkTkGtfzecxue2" : {
+            "country" : "United Kingdom",
+            "county" : "Surrey",
+            "email" : "sales@magicbox.technology",
+            "firstName" : "Robert",
+            "lastName" : "Barnes",
+            "otherName" : "H",
+            "postalCode" : "Gu20 6QD",
+            "question3" : "Yes",
+            "question9" : "Yes",
+            "sex" : "Male",
+            "status" : "accepted",
+            "streetAddress1" : "windmill",
+            "taxID" : "NY123456",
+            "town" : "Winslesham"
+          }
+        }
+      } ],
+      "role" : "data_processor"
+    },
+    "PYbyQbv0gWRwrXDXdTrgTz2qbyd2" : {
+      "email" : "neil@magicbox.technology",
+      "forms" : [ {
+        "birthDate" : "26/01/2018",
+        "startDate" : "27/01/2018",
+        "status" : "modified"
+      } ],
+      "role" : "data_owner"
+    },
+    "SnKJkkcfqLO30kWGwJcC4WQvBxP2" : {
+      "email" : "rbarnes@magicbox.technology",
+      "role" : "data_owner"
+    },
+    "khAsFEhw6sNtc2XkTkGtfzecxue2" : {
+      "email" : "sales@magicbox.technology",
+      "forms" : [ {
+        "country" : "United Kingdom",
+        "county" : "Surrey",
+        "email" : "sales@magicbox.technology",
+        "firstName" : "Robert",
+        "lastName" : "Barnes",
+        "otherName" : "H",
+        "postalCode" : "Gu20 6QD",
+        "question3" : "Yes",
+        "question9" : "Yes",
+        "sex" : "Male",
+        "status" : "submitted",
+        "streetAddress1" : "windmill",
+        "taxID" : "NY123456",
+        "town" : "Winslesham"
+      } ],
+      "role" : "data_owner"
+    },
+    "pbF8RpeepLfpMjMVBBiWPJJbfIu2" : {
+      "email" : "ian@magicbox.technology",
+      "forms" : [ {
+        "email" : "i@i.com",
+        "status" : "modified"
+      } ],
+      "role" : "data_owner"
+    }
+  }
+}
